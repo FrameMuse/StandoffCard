@@ -1,0 +1,1090 @@
+@media screen and (max-width: 1810px) {
+    .undertop__h2 {
+        font-size: 22px;
+    }
+    
+    .shutle-icon__astar {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .usual-timer {
+        font-size: 14px;
+    }
+    
+    .undertop__h4 {
+        font-size: 14px;
+    }
+    
+    .shutle-icon__volume {
+        width: 22px;
+        height: 15px;
+    }
+    
+    .undertop__article3--header {
+        font-size: 20px;
+    }
+    
+    .undertop__article3--text {
+        font-size: 14px;
+    }
+
+    .wrapper {
+        padding: 0 90px;
+    }
+}
+
+@media screen and (max-width: 1735px) {
+    body {
+        font-size: 16px;
+    }
+
+    .undertop__h2 {
+        font-size: 20px;
+    }
+    
+    .shutle-icon__astar {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .usual-timer {
+        font-size: 14px;
+    }
+    
+    .undertop__h4 {
+        font-size: 14px;
+    }
+    
+    .shutle-icon__volume {
+        width: 22px;
+        height: 15px;
+    }
+    
+    .undertop__article3--header {
+        font-size: 19px;
+    }
+    
+    .undertop__article3--text {
+        font-size: 13px;
+    }
+    
+    .search-bar__image {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .search-bar__gap--placeholder, .search-bar__gap--input {
+        font-size: 25px;
+    }
+    
+    .choice-buttons__button {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    
+    .page-piece__article h2 {
+        font-size: 30px;
+    }
+    
+    .page-piece__article h4 {
+        font-size: 16px;
+    }
+    
+    .cards-stack__name {
+        font-size: 20px;
+    }
+    
+    .button2, .button3 {
+        font-size: 15px;
+    }
+    
+    .button1 {
+        font-size: 15px;
+    }
+    
+    img.cards-stack__image {
+        width: 165px;
+        height: 160px;
+    }
+    
+    .cards-stack__card {
+        width: 325px;
+        padding: 35px;
+    }
+    
+    .cards-stack__card--large {
+        width: 700px;
+    }
+    
+    .undertop__description {
+        font-size: 17px;
+    }
+
+
+
+
+
+    .user-contracts__contract .user-weapons__weapon {
+        margin-right: 15px;
+    }
+
+    .wrapper {
+        padding: 0 60px;
+    }
+}
+
+@media screen and (max-width: 1655px) {
+    .page-piece__title, .user-inventory__title, .case-inventory__title {
+        font-size: 28px;
+    }
+    
+    .user-place-account__nickname {
+        font-size: 15px;
+    }
+    
+    .user-place-account__balance {
+        font-size: 20px;
+    }
+    
+    .users-top__image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .user-place__place {
+        padding: 8px 13px;
+        font-size: 15px;
+    }
+    
+    .user-place {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    
+    .user-place__state--amount {
+        font-size: 20px;
+    }
+    
+    .user-place__state--name {
+        font-size: 15px;
+    }
+    
+    .table tr.table__preview {
+        font-size: 15px;
+    }
+    
+    .table tr {
+        font-size: 17px;
+    }
+    
+    .table-user__image {
+        width: 45px;
+        height: 45px;
+    }
+
+    .undertop__h2 {
+        font-size: 20px;
+    }
+    
+    .shutle-icon__astar {
+        width: 23px;
+        height: 23px;
+    }
+    
+    .usual-timer {
+        font-size: 14px;
+    }
+    
+    .undertop__h4 {
+        font-size: 14px;
+    }
+    
+    .shutle-icon__volume {
+        width: 22px;
+        height: 15px;
+    }
+    
+    .undertop__article3--header {
+        font-size: 19px;
+    }
+    
+    .undertop__article3--text {
+        font-size: 13px;
+    }
+    
+    .search-bar__image {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .search-bar__gap--placeholder, .search-bar__gap--input {
+        font-size: 25px;
+    }
+    
+    .choice-buttons__button {
+        padding: 12px 15px;
+        font-size: 14px;
+    }
+    
+    .page-piece__article h2 {
+        font-size: 28px;
+    }
+    
+    .page-piece__article h4 {
+        font-size: 15px;
+    }
+    
+    body {
+        font-size: 15px;
+    }
+    
+    .cards-stack__name {
+        font-size: 18px;
+    }
+    
+    .button2, .button3 {
+        font-size: 14px;
+    }
+    
+    .button1 {
+        font-size: 14px;
+    }
+    
+    img.cards-stack__image {
+        width: 150px;
+        height: 145px;
+    }
+    
+    .cards-stack__card {
+        width: 275px;
+        padding: 30px;
+    }
+    
+    .cards-stack__card--large {
+        width: 600px;
+    }
+    
+    .undertop__description {
+        font-size: 16px;
+        max-width: 550px;
+    }
+    
+    .undertop__article3:nth-child(3) {
+        display: none;
+    }
+    
+    .undertop__h1 {
+        font-size: 20px;
+    }
+    
+    .undertop__domain {
+        font-size: 11px;
+    }
+    
+    .standoffcase-logo {
+        width: 125px;
+    }
+    
+    .main-menu__link {
+        font-size: 14px;
+    }
+    
+    .mini-account__profile--image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .mini-account__balance--add {
+        padding: 9px;
+    }
+    
+    .shutle-icon__Uplus {
+        width: 8px;
+        height: 8px;
+    }
+    
+    a.copyright__link {
+        font-size: 16px;
+    }
+    
+    .copyright__text {
+        font-size: 16px;
+    }
+    
+    .undertop__social-link {
+        width: 16px;
+        height: 16px;
+        padding: 10px;
+    }
+
+    .weapon-skins__image {
+        width: 110px;
+        height: 64px;
+    }
+    .user-contracts__item {
+        width: 73px;
+        height: 42px;
+    }
+
+    .opencard__card {
+        padding: 35px 60px;
+    }
+    
+    .opencard-info__article--text {
+        font-size: 21px;
+    }
+    
+    .opencard-info__image {
+        padding: 17px;
+    }
+    
+    .opencard-info__image--image {
+        width: 55px;
+    }
+    
+    .opencard-info__Gprize {
+        padding: 45px 70px;
+    }
+    
+    .opencard__extra {
+        min-width: 350px;
+    }
+    
+    .opencard__extra--description {
+        line-height: 17px;
+    }
+    
+    .opencard {
+        width: 1310px;
+    }
+
+    .user-weapons__skin-name, .case-weapons__skin-name {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 22px 40px;
+    }
+}
+
+@media screen and (max-width: 1620px) {
+    .user-contracts__content {
+        width: 455px;
+    }
+}
+
+@media screen and (max-width: 1530px) {
+    .undertop__h1 {
+        font-size: 18px;
+        line-height: 20px;
+    }
+    
+    .standoffcase-logo {
+        width: 115px;
+    }
+    
+    .main-menu__link {
+        font-size: 13px;
+    }
+    
+    .mini-account {
+        font-size: 14px;
+    }
+    
+    .mini-account__balance--add {
+        padding: 8px;
+    }
+    
+    .mini-account__profile--image {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .undertop__h2 {
+        font-size: 18px;
+    }
+    
+    .usual-timer {
+        font-size: 12px;
+    }
+    
+    .usual-timer__cell {
+        padding: 12px;
+    }
+    
+    .shutle-icon__astar {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .shutle-icon__volume {
+        width: 20px;
+        height: 13px;
+    }
+    
+    .undertop__h4 {
+        font-size: 13px;
+    }
+    
+    .undertop__article3--header {
+        font-size: 17px;
+    }
+    
+    .undertop__article3--text {
+        font-size: 12px;
+    }
+    
+    .undertop__article3 {
+        line-height: 20px;
+    }
+    
+    .undertop__bench {
+        padding: 20px;
+    }
+
+    .contract__creation--text {
+        font-size: 24px;
+    }
+    
+    .contract__creation {
+        width: 35%;
+        padding: 25px;
+    }
+
+    .weapon-activities__button {
+        padding: 15px 25px;
+        font-size: 15px;
+    }
+
+    .profile-main__username {
+        font-size: 18px;
+    }
+    
+    .profile-main__top-up {
+        font-size: 14px;
+    }
+    
+    .shutle-icon__profile-avatar {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .profile-stats__state--amount {
+        font-size: 23px;
+    }
+    
+    .profile-stats__state {
+        padding: 35px 55px;
+    }
+    
+    .stndof2-avatar {
+        padding: 25px 40px;
+    }
+    
+    .stndof2-avatar__avatar--image {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .stndof2-avatar__avatar--desc {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .stndof2-avatar__text {
+        font-size: 14px;
+        max-width: 550px;
+    }
+    
+    .paid-way__sold, .paid-way__given {
+        padding: 4px 6px;
+    }
+    
+    .shutle-icon__tick, .shutle-icon__dollar-in-circle {
+        width: 13px;
+        height: 13px;
+    }
+    
+    .paid-way__cost {
+        padding: 6px 12px;
+        font-size: 13px;
+    }
+    
+    .go-to-top {
+        padding: 12px 35px;
+    }
+
+    .inventory-button__button {
+        padding: 16px 40px;
+    }
+    
+    .page-piece__title, .user-inventory__title, .case-inventory__title {
+        font-size: 26px;
+    }
+    .opencard__card {
+        padding: 25px 40px;
+    }
+    
+    .opencard {
+        width: 1100px;
+    }
+    
+    .weapon-skins__image {
+        width: 100px;
+        height: 58px;
+    }
+    .user-contracts__item {
+        width: 67px;
+        height: 39px;
+    }
+
+    .opencard-info__Gprize {
+        padding: 35px 55px;
+    }
+    
+    .opencard-info__Gprize--text {
+        font-size: 20px;
+    }
+    
+    .opencard__extra {
+        min-width: 300px;
+    }
+
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 20px 35px;
+    }
+    
+    .user-weapons__skin-name, .case-weapons__skin-name {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 1420px) {
+    .undertop__description {
+        font-size: 12px;
+        max-width: 450px;
+        line-height: 16px;
+        margin-left: 20px;
+    }
+    
+    .go-to-top {
+        padding: 10px 30px;
+    }
+    
+    .shutle-icon__chevron {
+        width: 16px;
+        height: 8px;
+    }
+    
+    .undertop__h1 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    
+    .undertop__domain {
+        font-size: 9px;
+        padding: 2px 5px;
+        top: -1px;
+    }
+    
+    .undertop__logo {
+        width: 75px;
+    }
+    
+    a.copyright__link {
+        font-size: 13px;
+        margin-right: 35px;
+    }
+    
+    .copyright__text {
+        font-size: 13px;
+        margin-left: 35px;
+    }
+    
+    .undertop__social-link {
+        width: 12px;
+        height: 12px;
+        padding: 7px;
+        margin: 0 10px;
+    }
+    
+    .page-piece__title, .user-inventory__title, .case-inventory__title {
+        font-size: 18px;
+    }
+    
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 15px 25px;
+    }
+    
+    .weapon-skins__image {
+        width: 85px;
+        height: 50px;
+    }
+    .user-contracts__item {
+        width: 57px;
+        height: 33px;
+    }
+    
+    .user-weapons__skin-name, .case-weapons__skin-name {
+        font-size: 11px;
+        line-height: 16px;
+        max-width: 100px;
+    }
+    
+    .opencard__card {
+        padding: 20px 32px;
+    }
+    
+    [class ^= "opencard__separate--circle"] {
+        width: 34px;
+        height: 34px;
+    }
+    
+    .opencard__separate--circle-top {
+        top: -17px;
+    }
+    
+    .opencard__separate--circle-bottom {
+        bottom: -17px;
+    }
+    
+    .opencard__separate--main {top: -20px;}
+    
+    body {
+        font-size: 12px;
+    }
+    
+    .opencard-info__article--text {
+        font-size: 18px;
+    }
+    
+    .opencard-info__image {
+        padding: 12px;
+    }
+    
+    .opencard-info__image--image {
+        width: 45px;
+    }
+    
+    .opencard-info__Gprize--text {
+        font-size: 17px;
+    }
+    
+    .opencard-info__Gprize {
+        padding: 25px 45px;
+    }
+    
+    .opencard__extra {
+        min-width: 250px;
+    }
+    
+    .opencard {
+        width: 960px;
+    }
+    
+    .undertop__h2 {
+        font-size: 14px;
+    }
+    
+    .usual-timer {
+        font-size: 10px;
+    }
+    
+    .undertop__article3--header {
+        font-size: 12px;
+    }
+    
+    .undertop__article3--text {
+        font-size: 10px;
+    }
+    
+    .undertop__h4 {
+        font-size: 11px;
+    }
+    
+    .shutle-icon__volume {
+        width: 17px;
+        height: 10px;
+        margin-right: 10px;
+    }
+    
+    .shutle-icon__astar {
+        width: 15px;
+        height: 15px;
+        margin-right: 15px;
+        top: 1px;
+    }
+    
+    .undertop__bench {
+        padding: 15px;
+    }
+    
+    .usual-timer__cell {
+        padding: 10px;
+    }
+    
+    .undertop__article3 {
+        line-height: 16px;
+    }
+    
+    .standoffcase-logo {
+        width: 95px;
+    }
+    
+    .main-menu__link {
+        font-size: 11px;
+        margin-left: 55px;
+    }
+    
+    .mini-account {
+        font-size: 11px;
+    }
+    
+    .mini-account__balance--add {
+        padding: 6px;
+        border-radius: 3px;
+        margin-right: 10px;
+    }
+
+    .mini-account__balance--numbers {
+        margin-right: 10px;
+    }
+    
+    .mini-account__profile--username {
+        margin-left: 10px;
+    }
+    
+    .shutle-icon__Uplus {
+        width: 6px;
+        height: 6px;
+    }
+    
+    .mini-account__profile--image {
+        width: 40px;
+        height: 40px;
+        border-radius: 6px;
+    }
+
+
+
+    .weapon-activities__button {
+        padding: 12px 18px;
+        font-size: 12px;
+    }
+    
+    .paid-way__cost {
+        font-size: 11px;
+        border-radius: 5px;
+        padding: 6px 10px;
+    }
+    
+    .contract__creation {
+        width: 30%;
+        padding: 15px;
+    }
+    
+    .contract__creation--text {
+        font-size: 18px;
+    }
+    
+    .contract__creation--acount {}
+    
+    .contract__card {
+        width: 180px;
+        height: 230px;
+        border-radius: 6px;
+        margin-left: 25px;
+    }
+    
+    .contract__cards {
+        margin-bottom: 0;
+    }
+    
+    .contract__card--cover {
+        font-size: 35px;
+    }
+    
+    .page-piece__title, .user-inventory__title, .case-inventory__title {
+        margin-bottom: 0;
+    }
+    
+    .user-inventory__header, .case-inventory__header {
+        margin-bottom: 60px;
+    }
+    
+    footer {
+        margin-top: 60px;
+    }
+
+
+
+
+
+    .page-piece__article h2 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    
+    .page-piece__article h4 {
+        font-size: 12px;
+        max-width: 650px;
+        line-height: 20px;
+    }
+    
+    .page-piece {
+        margin-top: 60px;
+    }
+    
+    .cards-stack__name {
+        font-size: 16px;
+    }
+    
+    .button1, .button2, .button3 {
+        font-size: 12px;
+        padding: 12px 15px;
+        border-radius: 5px;
+    }
+    
+    img.cards-stack__image {
+        width: 125px;
+        height: 120px;
+    }
+    
+    .cards-stack__buttons {
+        margin-top: 25px;
+    }
+    
+    .cards-stack__name {
+        margin-bottom: 25px;
+    }
+    
+    .cards-stack__card {
+        width: 230px;
+        padding: 25px;
+        margin-left: 25px;
+    }
+    
+    .cards-stack__card--large {
+        width: 485px;
+    }
+    
+    .choice-buttons__button {
+        font-size: 11px;
+        padding: 10px 15px;
+        margin-right: 2px;
+    }
+    
+    .choice-buttons__button:first-child {
+        border-radius: 4px 0 0 4px;
+    }
+    
+    .choice-buttons__button:last-child {
+        border-radius: 0 4px 4px 0;
+    }
+    
+    .search-bar__image {
+        width: 22px;
+        height: 22px;
+    }
+    
+    .search-bar__gap--placeholder, .search-bar__gap--input {
+        font-size: 20px;
+    }
+    
+    .search-bar {
+        margin-top: 60px;
+        padding: 15px 0;
+    }
+
+    .opencard-cover__text {
+        line-height: 16px;
+        width: 250px;
+        margin-top: 0;
+    }
+    
+    .opencard-cover__text--bigger {
+        font-size: 18px;
+    }
+    
+    .opencard-cover .button3 {
+        margin-bottom: 20px;
+    }
+    
+    .opencard-cover__article {
+        margin-bottom: 25px;
+    }
+
+
+
+
+
+    .profile-another__section--big-text {
+        font-size: 30px;
+    }
+    
+    .profile-another__section--text {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    
+    .profile-another__section--gray-text {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    
+    .profile-another__section--image {
+        width: 85px;
+    }
+    
+    .profile-another__username {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    
+    .profile-another__avatar {
+        width: 125px;
+        height: 125px;
+    }
+    
+    .shutle-icon__tick, .shutle-icon__dollar-in-circle {
+        width: 10px;
+        height: 10px;
+    }
+    
+    .paid-way__sold, .paid-way__given {
+        padding: 5px 6px;
+    }
+    
+    .user-weapons__hover--image {
+        width: 85px;
+    }
+
+    .shutle-icon__profile-avatar {
+        width: 110px;
+        height: 110px;
+    }
+    
+    .profile-main__username {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    
+    .profile-main__top-up {
+        font-size: 12px;
+        padding: 14px 25px;
+    }
+    
+    .profile-stats__state--amount {
+        font-size: 20px;
+    }
+    
+    .profile-stats__state--name {
+        margin-left: 10px;
+    }
+    
+    .profile-stats__state {
+        padding: 25px 40px;
+    }
+    
+    .stndof2-avatar {
+        padding: 20px 30px;
+    }
+    
+    .stndof2-avatar__avatar--image {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .stndof2-avatar__avatar--desc {
+        font-size: 12px;
+    }
+    
+    .stndof2-avatar__text {
+        font-size: 12px;
+        max-width: 450px;
+        line-height: 20px;
+    }
+    
+    .button1, .button2, .button3 {
+        padding: 10px 15px;
+        font-size: 10px;
+    }
+    
+    .inventory-button__button {
+        padding: 12px 30px;
+        font-size: 10px;
+    }
+
+    .page-piece__title {
+        margin-bottom: 60px;
+    }
+    
+    .users-top__place {
+        padding: 25px;
+        border-width: 2px;
+        margin-right: 25px;
+    }
+    
+    .users-top__image {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .user-place-account__nickname, .user-place__state--name, .table tr.table__preview {
+        font-size: 12px;
+    }
+    
+    .user-place-account__balance, .user-place__state--amount {
+        font-size: 17px;
+    }
+    
+    .user-place {
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    
+    .user-place__place {
+        padding: 6px 10px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+    
+    .users-top {
+        width: 1000px;
+    }
+    
+    .table tr {
+        font-size: 13px;
+    }
+    
+    .table-user__image {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    
+    .table td {
+        padding: 12px 30px;
+    }
+
+
+
+
+
+    .weapon-skins__quality {
+        height: 2px;
+    }
+
+    .user-contracts__items .weapon-skins__weapon {
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .user-contracts__content {
+        width: 335px;
+        padding: 25px 15px;
+    }
+}
