@@ -1325,7 +1325,7 @@ a.copyright__link {
     }
 }
 
-.user-weapons__もっと {
+.user-weapons__ã‚‚ã£ã¨ {
     position: absolute;
     bottom: 0;
     left: calc(50% - 105px);
@@ -1337,7 +1337,7 @@ a.copyright__link {
     transition: 0.125s background, 0.125s border, 0.075s border-radius, 0.125s padding, 0.125s left;
 }
 
-.user-weapons__もっと--阿仁町お {
+.user-weapons__ã‚‚ã£ã¨--é˜¿ä»ç”ºãŠ {
     left: calc(50% - 20px);
     padding: 12px;
     background: transparent;
@@ -1347,7 +1347,7 @@ a.copyright__link {
     animation: 2.5s linear spinning infinite;
 }
 
-.user-weapons__もっと--阿仁町お > span {
+.user-weapons__ã‚‚ã£ã¨--é˜¿ä»ç”ºãŠ > span {
     display: none;
 }
 
@@ -1752,9 +1752,6 @@ a.copyright__link {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 55px 90px;
-    border-radius: 8px;
-    cursor: pointer;
 }
 
 .opencard-info__Gprize--text {
@@ -1762,7 +1759,6 @@ a.copyright__link {
     font-weight: 700;
     color: #3d475a;
     text-align: center;
-    user-select: none;
 }
 
 .opencard__extra--description {
