@@ -130,7 +130,7 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
     border-right: unset;
 }
 .undertop__bench .usual-timer__name {
-    margin: 0 30px;
+    margin: 0 1.75em;
 }
 .undertop__bench--0 {
     width: 100%;
@@ -164,7 +164,7 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
     word-break: break-word;
 }
 .undertop__h2 {
-    font-size: 24px;
+    font-size: 1.33em;
     font-weight: 600;
 }
 .undertop__h4 {
@@ -262,10 +262,9 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .main-menu__link {
-    margin-left: 45px;
-    padding: 35px 30px;
+    margin-left: 2.75em;
+    padding: 2.25em 1.85em;
     font-size: 16px;
-    font-weight: 500;
     color: white;
     text-decoration: none;
     border-bottom: 2px solid transparent;
@@ -313,10 +312,10 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .mini-account__balance--add {
-    padding: 10px;
-    margin-right: 20px;
+    padding: 0.625em;
+    margin-right: 1.25em;
     background: #73c645;
-    border-radius: 6px;
+    border-radius: 0.333em;
     cursor: pointer;
 }
 
@@ -327,15 +326,15 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .mini-account__profile--image {
-    width: 65px;
-    height: 65px;
+    width: 4em;
+    height: 4em;
     background: url(../img/avatar.png) #fadf64 no-repeat center;
     background-size: cover;
-    border-radius: 16px;
+    border-radius: 0.6em;
 }
 
 .mini-account__profile--username {
-    margin-left: 20px;
+    margin-left: 1.25em;
 }
 
 /* Change Language */
@@ -345,9 +344,9 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .change-lang__current {
-    padding: 15px 25px;
+    padding: 0.95em 1.5em;
     border: 2px solid #1f232d;
-    border-radius: 6px;
+    border-radius: 0.333em;
     font-size: 16px;
     cursor: pointer;
     transition: .15s linear background;
@@ -425,8 +424,8 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .weapon-skins__image {
-    width: 120px;
-    height: 70px;
+    width: 6.7em;
+    height: 3.8em;
 }
 .weapon-skins__unit .weapon-skins__image, .weapon-skins__unit .weapon-skins__quality {
     z-index: 13;
@@ -1450,7 +1449,7 @@ a.copyright__link {
     background: #c60126;
 }
 .paid-way__processing {
-    background: #77c23b;
+    background: #daa800;
     padding: 8px;
 }
 
@@ -1670,6 +1669,11 @@ a.copyright__link {
     margin-top: 25px;
 }
 
+.contract__text__can__win {
+    text-align: center;
+    margin-top: 25px;
+}
+
 .contract__creation {
     display: inline-grid;
     padding: 30px;
@@ -1709,6 +1713,7 @@ a.copyright__link {
     display: grid;
     margin: 45px;
     min-width: 390px;
+    flex: 1;
 }
 
 .opencard-info {
@@ -1752,6 +1757,9 @@ a.copyright__link {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 55px 15px;
+    border-radius: 8px;
+    cursor: pointer;
 }
 
 .opencard-info__Gprize--text {
@@ -1759,6 +1767,7 @@ a.copyright__link {
     font-weight: 700;
     color: #3d475a;
     text-align: center;
+    user-select: none;
 }
 
 .opencard__extra--description {
@@ -2301,8 +2310,8 @@ input.popup-window__button[type="text"] {
 .shutle-icon__volume {
     background-image: url(../img/volume.png);
     background-size: contain;
-    width: 24px;
-    height: 17px;
+    width: 1.35em;
+    height: 0.95em;
     margin-right: 15px;
 }
 .shutle-icon__profile-avatar {
@@ -2354,14 +2363,14 @@ input.popup-window__button[type="text"] {
 }
 
 .usual-timer__devide {
-    margin: 10px;
+    margin: 0.625em;
     user-select: none;
 }
 
 .usual-timer__cell {
-    padding: 15px;
-    border: 1px solid #1f232d;
-    border-radius: 6px;
+    padding: 1em;
+    border: 0.08em solid #1f232d;
+    border-radius: 0.333em;
     font-family: monospace;
     user-select: none;
 }
@@ -2386,7 +2395,6 @@ input.popup-window__button[type="text"] {
 /* Settings */
 
 .set-volume {
-    font-size: 18px;
     font-weight: 500;
     color: #3d475a;
     cursor: pointer;

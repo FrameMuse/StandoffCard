@@ -1,4 +1,10 @@
-@media screen and (max-width: 1810px) {
+@media screen and (min-width: 2500px) {
+    .wrapper {
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 1840px) {
     .undertop__h2 {
         font-size: 22px;
     }
@@ -29,8 +35,33 @@
         font-size: 14px;
     }
 
-    .wrapper {
-        padding: 0 90px;
+    .search-bar {
+        margin-right: 90px;
+        margin-left: 90px;
+    }
+}
+
+@media screen and (max-width: 1760px) {
+    .weapon-skins__image {
+        width: 110px;
+        height: 61px;
+    }
+
+    .weapon-skins__unit:hover .weapon-detail {
+        top: 61px;
+    }
+
+    .user-contracts__item {
+        width: 70px;
+        height: 41px;
+    }
+
+    .user-contracts__content {
+        width: 440px;
+    }
+
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 1.5rem 2.5rem;
     }
 }
 
@@ -113,9 +144,9 @@
         padding: 35px;
     }
     
-    .cards-stack__card--large {
-        width: 700px;
-    }
+	.cards-stack.bigger .cards-stack__card:first-child {
+		width: 700px;
+	}
     
     .undertop__description {
         font-size: 17px;
@@ -129,8 +160,9 @@
         margin-right: 15px;
     }
 
-    .wrapper {
-        padding: 0 60px;
+    .search-bar {
+        margin-right: 60px;
+        margin-left: 60px;
     }
 }
 
@@ -192,8 +224,8 @@
         height: 23px;
     }
     
-    .usual-timer {
-        font-size: 14px;
+    .usual-timer >:nth-child(6), .usual-timer >:nth-child(7) {
+        display: none;
     }
     
     .undertop__h4 {
@@ -261,17 +293,13 @@
         padding: 30px;
     }
     
-    .cards-stack__card--large {
-        width: 600px;
-    }
+    .cards-stack.bigger .cards-stack__card:first-child {
+		width: 600px;
+	}
     
     .undertop__description {
         font-size: 16px;
         max-width: 550px;
-    }
-    
-    .undertop__article3:nth-child(3) {
-        display: none;
     }
     
     .undertop__h1 {
@@ -318,17 +346,8 @@
         padding: 10px;
     }
 
-    .weapon-skins__image {
-        width: 110px;
-        height: 64px;
-    }
-    .user-contracts__item {
-        width: 73px;
-        height: 42px;
-    }
-
     .opencard__card {
-        padding: 35px 60px;
+        padding: 35px 55px;
     }
     
     .opencard-info__article--text {
@@ -364,15 +383,33 @@
         line-height: 20px;
         margin-top: 20px;
     }
-    
-    .user-weapons__weapon, .case-weapons__weapon {
-        padding: 22px 40px;
+
+    .change-lang__current, .change-lang__lang {
+        padding: 12px 20px;
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 1620px) {
     .user-contracts__content {
-        width: 455px;
+        width: 410px;
+    }
+
+    .weapon-skins__image {
+        width: 100px;
+        height: 55px;
+    }
+    .user-contracts__item {
+        width: 64px;
+        height: 35px;
+    }
+
+    .weapon-skins__unit:hover .weapon-detail {
+        top: 55px;
+    }
+
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 1.5rem;
     }
 }
 
@@ -439,10 +476,6 @@
     
     .undertop__article3 {
         line-height: 20px;
-    }
-    
-    .undertop__bench {
-        padding: 20px;
     }
 
     .contract__creation--text {
@@ -525,20 +558,11 @@
         font-size: 26px;
     }
     .opencard__card {
-        padding: 25px 40px;
+        padding: 15px 30px;
     }
     
     .opencard {
         width: 1100px;
-    }
-    
-    .weapon-skins__image {
-        width: 100px;
-        height: 58px;
-    }
-    .user-contracts__item {
-        width: 67px;
-        height: 39px;
     }
 
     .opencard-info__Gprize {
@@ -552,12 +576,13 @@
     .opencard__extra {
         min-width: 300px;
     }
-
-    .user-weapons__weapon, .case-weapons__weapon {
-        padding: 20px 35px;
-    }
     
     .user-weapons__skin-name, .case-weapons__skin-name {
+        font-size: 13px;
+    }
+
+    .change-lang__current, .change-lang__lang {
+        padding: 10px 18px;
         font-size: 13px;
     }
 }
@@ -615,27 +640,34 @@
         font-size: 18px;
     }
     
-    .user-weapons__weapon, .case-weapons__weapon {
-        padding: 15px 25px;
-    }
-    
     .weapon-skins__image {
-        width: 85px;
-        height: 50px;
+        width: 76px;
+        height: 42px;
     }
     .user-contracts__item {
-        width: 57px;
-        height: 33px;
+        width: 50px;
+        height: 27px;
+    }
+
+    .weapon-detail {
+        left: -6px;
+    }
+    .weapon-skins__unit:hover .weapon-detail {
+        top: 42px;
+    }
+
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 1rem 1.5rem;
     }
     
     .user-weapons__skin-name, .case-weapons__skin-name {
-        font-size: 11px;
+        font-size: 10px;
         line-height: 16px;
-        max-width: 100px;
+        width: 100px;
     }
     
     .opencard__card {
-        padding: 20px 32px;
+        padding: 7px 14px;
     }
     
     [class ^= "opencard__separate--circle"] {
@@ -718,10 +750,6 @@
         top: 1px;
     }
     
-    .undertop__bench {
-        padding: 15px;
-    }
-    
     .usual-timer__cell {
         padding: 10px;
     }
@@ -776,7 +804,7 @@
     }
     
     .paid-way__cost {
-        font-size: 11px;
+        font-size: 9px;
         border-radius: 5px;
         padding: 6px 10px;
     }
@@ -790,8 +818,6 @@
         font-size: 18px;
     }
     
-    .contract__creation--acount {}
-    
     .contract__card {
         width: 180px;
         height: 230px;
@@ -799,7 +825,7 @@
         margin-left: 25px;
     }
     
-    .contract__cards {
+    .contract__cards:nth-child(2) {
         margin-bottom: 0;
     }
     
@@ -866,10 +892,9 @@
         padding: 25px;
         margin-left: 25px;
     }
-    
-    .cards-stack__card--large {
-        width: 485px;
-    }
+    .cards-stack.bigger .cards-stack__card:first-child {
+		width: 485px;
+	}
     
     .choice-buttons__button {
         font-size: 11px;
@@ -1053,7 +1078,7 @@
     }
     
     .users-top {
-        width: 1000px;
+        max-width: 1000px;
     }
     
     .table tr {
@@ -1070,6 +1095,10 @@
         padding: 12px 30px;
     }
 
+    .change-lang__current, .change-lang__lang {
+        padding: 8px 15px;
+        font-size: 11px;
+    }
 
 
 
@@ -1084,7 +1113,114 @@
     }
 
     .user-contracts__content {
-        width: 335px;
+        width: 300px;
         padding: 25px 15px;
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    .users-stats, .standoffcase-logo {
+        display: none;
+    }
+
+    .main-menu__link, .change-lang__current, .change-lang__lang, .mini-account {
+        font-size: 9px;
+    }
+
+    .change-lang__current, .change-lang__lang {
+        padding: 9px 12px;
+        border-width: 1px;
+    }
+
+    .undertop__h1 {
+        font-size: 14px;
+    }
+
+    .undertop__domain {font-size: 8px;}
+
+    body {
+        font-size: 10px;
+    }
+
+    .profile-stats__state--name {
+        font-size: 11px;
+    }
+
+    .profile-stats__state--amount {
+        font-size: 15px;
+    }
+
+    .profile-main {
+        padding: 25px 50px;
+    }
+
+    .stndof2-avatar__text, .stndof2-avatar__avatar--desc, .button1, .button2, .button3 {
+        font-size: 10px;
+        line-height: 13px;
+    }
+
+    .button1, .button2, .button3 {
+        padding: 9px 12px;
+        border-width: 1px;
+    }
+
+    .profile-main__top-up {
+        font-size: 10px;
+        padding: 12px 20px;
+    }
+
+    .stndof2-avatar__avatar--image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .stndof2-avatar {
+        margin-top: 15px;
+        margin-left: 15px;
+        padding: 15px 20px;
+    }
+
+    .profile-stats__state {
+        margin-left: 15px;
+        padding: 20px 35px;
+    }
+
+    .shutle-icon__profile-avatar {
+        width: 95px;
+        height: 95px;
+    }
+
+    .profile-main__username {
+        font-size: 13px;
+    }
+
+    .user-weapons__weapon, .case-weapons__weapon {
+        padding: 1rem;
+    }
+
+    .opencard-info__Gprize--text {
+        font-size: 12px;
+    }
+
+    .undertop__h2 {
+        font-size: 12px;
+    }
+
+    .undertop__article3--header {
+        font-size: 11px;
+    }
+
+    .undertop__article3--text {
+        font-size: 9px;
+    }
+
+    .undertop__h4 {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .undertop__article3:nth-child(2) {
+        display: none;
     }
 }
