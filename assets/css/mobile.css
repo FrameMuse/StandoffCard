@@ -362,10 +362,6 @@
         width: 55px;
     }
     
-    .opencard-info__Gprize {
-        padding: 45px 70px;
-    }
-    
     .opencard__extra {
         min-width: 350px;
     }
@@ -564,17 +560,14 @@
     .opencard {
         width: 1100px;
     }
-
-    .opencard-info__Gprize {
-        padding: 35px 55px;
-    }
     
     .opencard-info__Gprize--text {
-        font-size: 20px;
+        font-size: 15px;
     }
     
     .opencard__extra {
-        min-width: 300px;
+        min-width: 330px;
+        margin: 45px 25px;
     }
     
     .user-weapons__skin-name, .case-weapons__skin-name {
@@ -702,15 +695,11 @@
     }
     
     .opencard-info__Gprize--text {
-        font-size: 17px;
-    }
-    
-    .opencard-info__Gprize {
-        padding: 25px 45px;
+        font-size: 13px;
     }
     
     .opencard__extra {
-        min-width: 250px;
+        min-width: 280px;
     }
     
     .opencard {
