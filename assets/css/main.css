@@ -9,6 +9,7 @@
     display: none;
 }
 
+/*
 canvas, img {
     image-rendering: optimizeQuality;
     image-rendering: -moz-crisp-edges;
@@ -16,6 +17,7 @@ canvas, img {
     image-rendering: optimize-contrast;
     -ms-interpolation-mode: nearest-neighbor;
 }
+*/
 
 body {
     font-family: 'Exo 2', sans-serif;
@@ -1284,7 +1286,7 @@ a.copyright__link {
     }
 }
 
-.user-weapons__ã‚‚ã£ã¨ {
+.user-weapons__Ã£â€šâ€šÃ£ÂÂ£Ã£ÂÂ¨ {
     position: absolute;
     bottom: 0;
     left: calc(50% - 105px);
@@ -1296,7 +1298,7 @@ a.copyright__link {
     transition: 0.125s background, 0.125s border, 0.075s border-radius, 0.125s padding, 0.125s left;
 }
 
-.user-weapons__ã‚‚ã£ã¨--é˜¿ä»ç”ºãŠ {
+.user-weapons__Ã£â€šâ€šÃ£ÂÂ£Ã£ÂÂ¨--Ã©ËœÂ¿Ã¤Â»ÂÃ§â€ÂºÃ£ÂÅ {
     left: calc(50% - 20px);
     padding: 12px;
     background: transparent;
@@ -1306,7 +1308,7 @@ a.copyright__link {
     animation: 2.5s linear spinning infinite;
 }
 
-.user-weapons__ã‚‚ã£ã¨--é˜¿ä»ç”ºãŠ>span {
+.user-weapons__Ã£â€šâ€šÃ£ÂÂ£Ã£ÂÂ¨--Ã©ËœÂ¿Ã¤Â»ÂÃ§â€ÂºÃ£ÂÅ>span {
     display: none;
 }
 
@@ -2431,8 +2433,8 @@ input.popup-window__button[type="text"] {
 }
 
 .goal__image--image {
-    width: 3em;
-    height: 3em;
+    width: 3.5em;
+    height: 3.5em;
     object-fit: cover;
 }
 
