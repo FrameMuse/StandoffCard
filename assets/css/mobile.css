@@ -1,3 +1,5 @@
+/*
+
 @media screen and (min-width: 2500px) {
     .wrapper {
         padding: 0;
@@ -1195,5 +1197,22 @@
 
     .user-weapons__weapon, .case-weapons__weapon {
         padding: 1rem;
+    }
+}
+
+*/
+
+@media screen and (max-width: 1320px) {
+    body {
+        font-size: 12px;
+    }
+    .page-width, .undertop__bench--0, footer .paysys, .copyright, main {
+        width: 1130px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    body {
+        width: 1190px;
     }
 }
