@@ -561,7 +561,7 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .cards-stack.bigger .cards-stack__card:first-child {
-    width: 740px;
+    width: 40em;
 }
 
 .cards-stack__card {
@@ -1813,15 +1813,15 @@ a.copyright__link {
     left: 0;
     right: 0;
     bottom: 0;
-    width: 100%;
-    height: 100%;
+    width: inherit;
+    height: inherit;
     background: url(../img/card-cover.png) #1a1e26 no-repeat center;
     background-size: contain;
 }
 
 .opencard__card--weapon {
-    width: 120px;
-    height: 70px;
+    width: auto;
+    height: auto;
     user-select: none;
     pointer-events: none;
 }
