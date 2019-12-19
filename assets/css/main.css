@@ -368,9 +368,9 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 
 .change-lang__current {
     padding: 0.95em 1.5em;
-    border: 2px solid #1f232d;
+    border: 0.125em solid #1f232d;
     border-radius: 0.333em;
-    font-size: 16px;
+    font-size: 0.9em;
     cursor: pointer;
     transition: .15s linear background;
     z-index: 2;
@@ -386,11 +386,11 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .change-lang__lang {
-    padding: 15px 25px;
+    padding: 0.9em 1.5em;
     background: #1c212d;
-    border: 2px solid transparent;
-    border-bottom: 2px solid #53555a;
-    font-size: 16px;
+    border: 0.125em solid transparent;
+    border-bottom: 0.125em solid #53555a;
+    font-size: 0.9em;
     transition: .15s linear background;
     cursor: pointer;
     user-select: none;
@@ -410,7 +410,7 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .change-lang__lang:first-child {
-    border-radius: 4px 4px 0 0;
+    border-radius: 0.25em 0.25em 0 0;
 }
 
 .change-lang__lang:last-child {
@@ -820,18 +820,26 @@ footer {
     margin-top: 2em;
 }
 
+.paysys--1 {
+    margin-top: 5em;
+}
+
 footer .paysys {
     width: 1260px;
     margin: 2em auto 0;
 }
 
 .paysys__image {
-    width: 3em;
-    height: 3em;
+    /* width: 3em; */
+    /* height: 3em; */
     object-fit: contain;
     filter: contrast(0.5) opacity(0.2) grayscale(1);
     cursor: pointer;
     transition: .125s linear filter;
+}
+
+.paysys--1 .paysys__image {
+    height: 2em;
 }
 
 .paysys__image:hover {
@@ -2680,4 +2688,31 @@ input.popup-window__button[type="text"] {
     font-size: 26px;
     font-weight: 700;
     cursor: default;
+}
+
+/* New Year */
+
+.girlyanda {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transform: translateY(-70%);
+    user-select: none;
+    z-index: 99;
+}
+
+.logo::before {
+    content: '';
+    position: absolute;
+    top: -.55em;
+    left: -.6em;
+    width: 1.7em;
+    height: 1.7em;
+    background: url(/assets/img/ny3.png) no-repeat center/contain;
+    transform: scaleX(-1)
+}
+
+.undertop--style-1 {
+    background: url(/assets/img/ny2.png) center/22%;
+    background-position: 0 36%;
 }
