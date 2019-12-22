@@ -1375,10 +1375,6 @@ a.copyright__link {
     padding-bottom: 4em;
 }
 
-[load-type="contracts"] {
-    justify-content: center;
-}
-
 .user-weapons[class *="user-weapons--"], [class *="user-inventory--"] .user-weapons {
     display: none;
 }
@@ -1569,7 +1565,7 @@ a.copyright__link {
 
 /* Contract */
 
-.user-contracts.user-weapons--contracts {
+.user-contracts.user-weapons--contracts, [load-type="contracts"] {
     display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(2, 1fr);
@@ -1656,12 +1652,12 @@ a.copyright__link {
 
 .contract__text {
     text-align: center;
-    margin: -0.5em 0;
+    /* margin: -0.5em 0; */
 }
 
 .contract__text__can__win {
     text-align: center;
-    margin-top: 25px;
+    /* margin-top: 25px; */
 }
 
 .contract__creation {
