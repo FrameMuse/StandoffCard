@@ -1372,7 +1372,7 @@ a.copyright__link {
 .user-weapons, .case-weapons {
     display: flex;
     flex-wrap: wrap;
-    padding-bottom: 4em;
+    padding-bottom: 7.5em;
 }
 
 .user-weapons[class *="user-weapons--"], [class *="user-inventory--"] .user-weapons {
