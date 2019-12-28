@@ -1,10 +1,12 @@
+String.prototype.intConvert = function () {
+    return parseInt(this, 10);
+}
+
 class goals {
     constructor(name) {
         this.name = name;
         this.default();
-
         this.progress_block = '<div class="goal__line"><div class="goal__line--line-progress"></div><div class="goal__counter"><span class="goal__counter--icon"></span><span class="goal__counter--amount"></span></div></div>';
-
         this.commit_progress(2, 89);
     }
 
@@ -13,8 +15,8 @@ class goals {
         this.width = $(this.name).outerWidth();
         this.goal_width = $(".goal").outerWidth();
         this.goal_height = $(".goal__image").outerHeight();
+        this.goal_indent = $(".goal[data-goal-id='1']").css("margin-left").replace("px", "").intConvert();
         this.goal_image = $(".goal__image").outerWidth();
-        this.goal_image_indent = 35;
         this.goal_goal_height = $(".goal__goal").outerHeight();
     }
 
@@ -43,7 +45,7 @@ class goals {
         var goals_in_width = this.goal_width * goals_number;
         var empty_space = this.width - goals_in_width;
         var goal_indent = empty_space / (goals_number - 1);
-        var step = this.goal_width + goal_indent;
+        var step = this.goal_width + this.goal_indent;
         var indent = step * goal_number;
         var percent = percent / 100;
         var progress = (indent - step) + (this.goal_width / 2) + ((step * percent)) - step;
