@@ -2769,11 +2769,15 @@ input.popup-window__button[type="text"] {
     transform: translateX(100%);
 }
 
-.circled-images__image:nth-last-child(4), .circled-images__motto {
+.circled-images__image:nth-last-child(4) {
     transform: translateX(150%);
 }
 
-.circled-images__motto {}
+.circled-images__motto {
+    background: #268ce3 url("http://127.0.0.1:2222/3_dots.png") no-repeat center/50%;
+    color: white;
+    line-height: 23px;
+}
 
 /* Promocode */
 
