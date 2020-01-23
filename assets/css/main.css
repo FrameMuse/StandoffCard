@@ -367,7 +367,7 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 /* Change Language */
 
 .change-lang {
-    z-index: 1;
+    z-index: 13;
 }
 
 .change-lang__current {
@@ -1320,7 +1320,7 @@ a.copyright__link {
     }
 }
 
-.user-weapons__motto {
+.user-weapons__motto, .user-weapons__もっと {
     position: absolute;
     bottom: 0;
     left: calc(50% - 105px);
@@ -1330,6 +1330,7 @@ a.copyright__link {
     border-radius: 6px;
     color: white;
     transition: 0.125s background, 0.125s border, 0.075s border-radius, 0.125s padding, 0.125s left;
+    z-index: 1;
 }
 
 .user-weapons__motto--nein {
@@ -1382,9 +1383,8 @@ a.copyright__link {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-gap: 1.5em;
+    padding-bottom: 7.5em;
     /* margin-bottom: 7.5em; */
-    max-height: 21.05em;
-    overflow: auto;
 }
 
 .user-weapons[class *="user-weapons--"], [class *="user-inventory--"] .user-weapons {
@@ -1392,7 +1392,7 @@ a.copyright__link {
 }
 
 .user-inventory--history .user-weapons--history, .user-inventory--contracts .user-weapons--contracts {
-    display: flex;
+    display: grid;
 }
 
 .user-weapons__weapon, .case-weapons__weapon {
@@ -1576,7 +1576,6 @@ a.copyright__link {
 /* Contract */
 
 .user-contracts.user-weapons--contracts, [load-type="contracts"] {
-    display: grid;
     grid-gap: 2em;
     grid-template-columns: repeat(2, 1fr);
 }
@@ -1598,6 +1597,7 @@ a.copyright__link {
 .user-contracts__content {
     display: grid;
     align-content: space-between;
+    flex: 1;
     padding: 1.5em 1.75em;
     background: rgba(26, 30, 38, 0.9);
     border-radius: 0.35em;
