@@ -2774,7 +2774,7 @@ input.popup-window__button[type="text"] {
 }
 
 .circled-images__motto {
-    background: #268ce3 url("http://127.0.0.1:2222/3_dots.png") no-repeat center/50%;
+    background: #268ce3 url("../img/3_dots.png") no-repeat center/40%;
     color: white;
     line-height: 23px;
 }
@@ -2934,4 +2934,41 @@ input.bonus-page__input:focus::placeholder, input.bonus-page__input:focus::place
 .undertop--style-1 {
     background: url(/assets/img/ny2.png) center/22%;
     background-position: 0 36%;
+}
+
+/* Bonuses => Users */
+
+.bonuses-users {
+    position: absolute;
+    right: -9em;
+    display: none;
+    align-self: flex-end;
+    padding: 1.5em;
+    margin-top: -3em;
+    background: rgba(26, 30, 38, 0.9);
+    border-radius: 0.25em;
+}
+
+.bonuses-users__inner {
+    display: grid;
+    grid-gap: 0.75em;
+    grid-template-columns: repeat(4, 1fr);
+    height: 14em;
+    overflow: auto;
+}
+
+.bonuses-users__image {
+    width: 4em;
+    height: 4em;
+    object-fit: cover;
+    border-radius: 0.25em;
+}
+
+.bonuses-users__button {
+    display: flex;
+    padding: 0.55em 1.25em;
+    margin: 1em auto 0;
+    background: #268ce3;
+    border-radius: 0.25em;
+    color: white;
 }
