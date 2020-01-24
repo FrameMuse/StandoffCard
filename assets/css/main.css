@@ -86,11 +86,11 @@ button, input[type="submit"] {
 
 .button1 {
     display: inline-block;
-    padding: 1em 1.35em;
-    border: 0.125em solid #30394a;
+    padding: 1.1em 1.35em;
+    border: 0.1em solid #4c5465;
     border-radius: 0.35em;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
     font-weight: 500;
     text-decoration: none;
     transition: 0.15s linear background, 0.15s linear border;
@@ -102,7 +102,7 @@ a.button1 {
 }
 
 .button2, .button3 {
-    padding: 1em 1.35em;
+    padding: 1.15em 1.35em;
     background: #268ce3;
     border: 0.125em solid transparent;
     border-radius: 0.35em;
@@ -114,7 +114,7 @@ a.button1 {
 }
 
 a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
-    background: #30394a;
+    background: #268ce3;
     border-color: transparent;
 }
 
@@ -606,8 +606,6 @@ a.button1:hover, button.button1:hover, input[tpye="submit"].button1:hover {
 }
 
 .cards-stack__name {
-    width: 70%;
-    align-self: flex-start;
     font-size: 1.25em;
     font-weight: 600;
     word-break: break-word;
@@ -618,6 +616,7 @@ img.cards-stack__image {
     width: 10em;
     height: 10em;
     object-fit: contain;
+    margin-bottom: 4em;
 }
 
 .cards-stack__card--large {
@@ -631,7 +630,7 @@ img.cards-stack__image {
 
 .cards-stack__buttons>.button1 {
     margin-right: 0.5em;
-    border-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(57, 69, 80, 0.5);
 }
 
 [class ^="cards-stack__hole--"] {
@@ -1320,7 +1319,7 @@ a.copyright__link {
     }
 }
 
-.user-weapons__motto, .user-weapons__もっと {
+.user-weapons__motto, .user-weapons__Ã£â€šâ€šÃ£ÂÂ£Ã£ÂÂ¨ {
     position: absolute;
     bottom: 0;
     left: calc(50% - 105px);
@@ -1704,7 +1703,7 @@ a.copyright__link {
 
 .opencard__extra {
     display: grid;
-    min-width: 25em;
+    min-width: 20em;
     margin: 2.5em;
 }
 
@@ -1713,6 +1712,39 @@ a.copyright__link {
     align-self: flex-start;
     align-items: center;
     justify-content: space-between;
+}
+
+.opencard__info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cards-stack__open-buttons {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    text-align: center;
+}
+
+.cards-stack__open-mode {
+    display: grid;
+    grid-gap: 0.5em;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+}
+
+.cards-stack__mode {
+    padding: 1em;
+    font-size: 0.95em;
+    cursor: pointer;
+}
+
+.cards-stack__mode--chosen {
+    background: #268ce3;
+    border-color: #268ce3;
 }
 
 .opencard-info__article {

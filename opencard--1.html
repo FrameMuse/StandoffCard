@@ -250,11 +250,22 @@
                 </div>
                 <div class="opencard__extra">
                     <div class="opencard__card-preview">
-                        <div class="cards-stack__name">Билет золотой</div>
-                        <img src="assets/img/platina.png" class="cards-stack__image">
-                        <div class="cards-stack__buttons">
-                            <span href="#goto" class="button1">Открыть</span>
+                        <div class="opencard__info">
+                            <div class="cards-stack__name">Билет золотой</div>
                             <span class="button2">129 Р</span>
+                        </div>
+                        <img src="assets/img/platina.png" class="cards-stack__image">
+                        <div class="cards-stack__open-mode">
+                            <span class="cards-stack__mode cards-stack__mode--chosen button1">1x</span>
+                            <span class="cards-stack__mode button1">2x</span>
+                            <span class="cards-stack__mode button1">3x</span>
+                            <span class="cards-stack__mode button1">4x</span>
+                            <span class="cards-stack__mode button1">5x</span>
+                            <span class="cards-stack__mode button1">10x</span>
+                        </div>
+                        <div class="cards-stack__open-buttons">
+                            <a href="#goto" class="button1">Открыть</a>
+                            <a href="#goto" class="button1">Открыть быстро</a>
                         </div>
                     </div>
                 </div>
@@ -330,6 +341,11 @@
             });
 
             $(".go-to-top").click(() => $("html, body").animate({ scrollTop: 0 }, "slow"));
+
+            $(".cards-stack__mode").click(function () {
+                $(".cards-stack__mode").removeClass("cards-stack__mode--chosen");
+                $(this).addClass("cards-stack__mode--chosen");
+            });
         </script>
     </footer>
 </body>
