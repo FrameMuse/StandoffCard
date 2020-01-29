@@ -1697,6 +1697,7 @@ a.copyright__link {
     display: inline-flex;
     justify-self: center;
     margin: 5em auto;
+    width: 75em;
     background: rgba(26, 30, 38, 0.9);
     box-shadow: -15px -15px 15px -18px rgba(0, 0, 0, 0.5);
     border-radius: 1em;
@@ -1818,6 +1819,7 @@ a.copyright__link {
 .opencard__separate {
     display: inline-grid;
     justify-items: center;
+    overflow: hidden;
 }
 
 .opencard__separate--circle-top {
