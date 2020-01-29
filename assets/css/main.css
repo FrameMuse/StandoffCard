@@ -1698,7 +1698,16 @@ a.copyright__link {
     justify-self: center;
     margin: 5em auto;
     background: rgba(26, 30, 38, 0.9);
+    box-shadow: -15px -15px 15px -18px rgba(0, 0, 0, 0.5);
     border-radius: 1em;
+}
+
+.opencard[card-id]:not(:first-child) {
+    position: absolute;
+    top: -1.75em;
+    left: 5.5em;
+    z-index: -1;
+    box-shadow: unset;
 }
 
 .opencard__extra {
