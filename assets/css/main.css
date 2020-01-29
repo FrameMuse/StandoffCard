@@ -1981,6 +1981,25 @@ a.copyright__link {
     margin: 0;
 }
 
+.opencard__cover {
+    position: relative;
+    display: grid;
+    grid-gap: 5em 2em;
+    grid-template-columns: repeat(3, 1fr);
+    background: #13161c;
+    padding: 10em 0;
+    width: 100%;
+}
+
+.opencard__buttons {
+    position: absolute;
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1em;
+    justify-self: center;
+    align-self: flex-end;
+}
+
 /* Popup */
 
 .popup, .popup__cover {
