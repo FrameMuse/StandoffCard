@@ -1819,6 +1819,7 @@ a.copyright__link {
 .opencard__separate {
     display: inline-grid;
     justify-items: center;
+    flex-shrink: 0;
     overflow: hidden;
 }
 
@@ -1981,7 +1982,7 @@ a.copyright__link {
     margin: 0;
 }
 
-.opencard__cover {
+.opencard__cover--relative {
     position: relative;
     display: grid;
     grid-gap: 5em 2em;
